@@ -1,0 +1,17 @@
+.nav2{
+    background-color: #ffff !important;
+}
+.parent{
+    position: relative !important;
+    left: 0 !important;
+    right: 0 !important;
+}
+
+.buynowlinks{
+    color: #252525 !important;
+    transition: 0.2s;
+}
+
+.buynowlinks:hover{
+    color: #21b360 !important;
+}

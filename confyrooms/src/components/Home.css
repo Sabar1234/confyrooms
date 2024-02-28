@@ -1,0 +1,172 @@
+.mainParent {
+  background-color: #f2f3f2 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  margin-right: 0% !important;
+}
+
+.section {
+  background-image: url("src/components/Images/Houses.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+
+.heading {
+  font-family: serif;
+  /* font-size: 55px; */
+}
+
+.line {
+  background-color: #fca22a;
+  width: 80px;
+  border-radius: 50px;
+  height: 5px;
+}
+
+.secBtn {
+  background-color: #fca22a;
+  color: #ffff;
+  border-radius: 50px !important;
+  transition: 0.3s;
+}
+
+.secBtn:hover {
+  background-color: #21b360;
+  color: #ffff !important;
+}
+
+.sec2Parent {
+  background-color: #ffff;
+}
+
+.heading2 {
+  color: #0e385d;
+  font-family: serif;
+  font-size: 40px !important;
+  
+}
+
+.para2 {
+  color: #0e385d;
+  font-size: larger;
+}
+.house {
+  font-size: large;
+  color: #0e385d;
+  font-weight: bolder;
+}
+
+.secTwoBtn,
+.cardSecBtn {
+  border-radius: 50px !important;
+  background-color: #0e385d !important;
+}
+
+.cardBtn {
+  background-color: #0e385d !important;
+  border-radius: 40px !important;
+  border: 0;
+}
+
+.secTwoBtn:hover {
+  background-color: #21b360 !important;
+}
+
+.cardSecBtn:hover {
+  background-color: #21b360 !important;
+}
+
+.cardBtn:hover {
+  background-color: #21b360 !important;
+}
+
+.headingThree {
+  color: #0e385d;
+  font-family: serif;
+  font-size: 55px;
+}
+
+.secThree {
+  background: #f2f3f2 !important;
+}
+
+@media screen and (max-width: 960px) {
+  .imgText {
+    margin: 0px 0px;
+  }
+
+  .heading {
+    font-size: 40px;
+  }
+  .para {
+    display: none;
+  }
+  .heading2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .imgText {
+    margin: 0px 0px;
+  }
+  .firstheading {
+    font-size: 15px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .para {
+    display: none;
+  }
+
+  .heading2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .imgText {
+    margin: 0px 0px;
+  }
+  .firstheading {
+    font-size: 15px;
+  }
+  .heading {
+    font-size: 24px;
+  }
+  .para {
+    display: none;
+  }
+
+  .line {
+    background-color: #fca22a;
+    width: 70px;
+    border-radius: 50px;
+    height: 5px;
+  }
+
+  .heading2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .firstheading {
+    font-size: 15px;
+  }
+  .para {
+    display: none;
+  }
+  .line {
+    background-color: #fca22a;
+    width: 70px;
+    border-radius: 50px;
+    height: 5px;
+  }
+}

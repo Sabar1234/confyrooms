@@ -1,0 +1,11 @@
+
+.cartBtn {
+    color: #ffff;
+    border-radius: 50px !important;
+    transition: 0.3s;
+  }
+  
+  .cartBtn:hover {
+    background-color: #21b360;
+    color: #ffff !important;
+  }

@@ -1,0 +1,43 @@
+/* .navbar {
+  background-color: #252525 !important;
+} */
+
+a{
+  text-decoration: none !important;
+}
+
+.menu {
+  font-family: "Roboto", sans-serif !important;
+  /* font-weight: 400; */
+color: #ffff !important;}
+
+
+
+.menu:hover {
+  font-family: "Roboto", sans-serif !important;
+  /* font-weight: 400; */
+  color: #21b360;
+}
+
+
+span {
+  color: #fff959;
+}
+
+.btn {
+  border-radius: 0% !important;
+}
+
+.loginLink{
+  color: #21b360;
+  text-decoration: none;
+}
+
+.fa-address-card{
+  color: #A5A5A5 !important;
+}
+
+
+
+
+
